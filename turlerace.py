@@ -78,7 +78,7 @@ def CreateTurtles():
     penup()
     goto(-50, 250)
     if turtle1 > turtle2 and turtle1 > turtle3:
-        write('Turtle1 is the winner',move=Flase, align="center", font=("Arial",50,"normal"))
+        write('Turtle1 is the winner',move=False, align="center", font=("Arial",25,"normal"))
     elif turtle2 > turtle1 and turtle2 > turtle3:
         write('Turtle2 is the winner')
     else:
