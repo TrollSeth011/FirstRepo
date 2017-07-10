@@ -1,6 +1,8 @@
 from random import choice
 
-players = ['Harry', 'Hermione', 'Neville', 'Ginny', 'Luna', 'thisguy']
+file = open('players.txt', 'r')
+players = file.read().splitlines()
+file.close()
 teams = ['Alligators', 'Gorrillas', 'Eagles', 'Pythons', 'Wasps', 'Panthers']
 
 team1 = []
