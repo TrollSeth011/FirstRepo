@@ -10,7 +10,7 @@ team2 = []
 
 
 def pickteam1():
-    for i in range(len(players)/2):
+    for i in range(int(len(players)/2)):
         player = choice(players)
         print(player)
         team1.append(player)
