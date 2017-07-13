@@ -11,19 +11,26 @@ for line in file:
     colours[a]=b
 
 screen  = Screen()
-screen.setup(400,400)
+screen.setup(1000,1000)
 
 
 screen.bgcolor(colours['green'])
 
-circle(50)
-dot(300)
+dot(500)
 def Colorpicker(colors, word):
     color(colours[colors])
     style = ('Arial', 40, 'bold')
     write(word, font=style, align='center')
-    #hideturtle()
+    hideturtle()
+
+def Moveturtle():
+    penup()
+    right(90)
+    forward(60)
+    left(90)
 Colorpicker('orange', 'Hello')
+Moveturtle()
 Colorpicker('red', 'Good')
+Moveturtle()
 Colorpicker('green', 'This')
 screen.exitonclick()
