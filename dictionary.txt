@@ -1,0 +1,3 @@
+orange,#E65D22
+red,#ED2121
+green,#21ED2B
